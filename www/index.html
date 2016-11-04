@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
+    <title>Crapper Keeper</title>
 
     <link rel="manifest" href="manifest.json">
 
@@ -34,7 +34,39 @@
     <script src="js/controllers.js"></script>
   </head>
 
-  <body ng-app="starter">
-    <ion-nav-view></ion-nav-view>
+  <body ng-app="crapper_keeper">
+    <ion-header-bar class="bar-dark">
+      <br>
+      <h1 class="title" style="text-align:center;">Crapper Keeper</h1>
+      <h4 style="text-align:center;">Keep Your Crap In Order</h4>
+      <p style="text-align:center;">This app is for people who have crap. A lot
+        of crap.</p>
+      <p style="text-align:center;">Keep track of your crap by logging in where
+        you put things so you can find it later!</p>
+    </ion-header-bar>
+
+    <ion-content>
+      <a class="facebook-sign-in button button-block" ng-click="facebookSignIn()">Login with Facebook</a>
+      <a class="button button-assertive button-block button-outline" ng-click="showLogOutMenu()">Log Out</a>
+    </ion-content>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div>
+          <h2 class="contact_info" style="text-align:center;">Let's Get In Touch!</h2>
+          <hr class="primary">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span style="text-align:center;"><a href="mailto:regina.imhoff@gmail.com">regina.imhoff@gmail.com</a></span>
+          <br>
+          <span class="glyphicon glyphicon-education"></span>
+          <span style="text-align:center;"><a href="mailto:imhoffr@oregonstate.edu">imhoffr@oregonstate.edu</a></span>
+          <br>
+          <p style="text-align:center;">This site was made by <a href="http://www.reginaimhoff.com">Regina Imhoff</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   </body>
 </html>

@@ -1,1 +1,17 @@
 /* Empty. Add your own CSS if you like */
+
+/* sign in section */
+.sign_in_section {
+  background-image: url('/tools.jpeg');
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
